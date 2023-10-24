@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+
+.left {
+    width: 34%;
+    /* height: 200px; */
+    /* border: 2px solid black; */
+}
+
+.right{
+    width: 64%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.education{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+.experience{
+    width: 100%;
+    height: 500px;
+    background-color: cyan;
+}
+
+.photo{
+    width: 100%;
+    height: 300px;
+    background-color:blue;
+}
+
+.info{
+    width: 100%;
+    height: 700px;
+    background-color:blueviolet;
+     display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    
+}
+h1{
+    font-size: 20px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 12px;
+}
+.sec1{
+    width: 90%;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+   
+}
+.sec2{
+    width: 85%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    bottom: 2px;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+.sec3 {
+    width: 90%;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+}
+.sec4{
+    width: 70%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    bottom: 2px;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+.sec5 {
+    width: 90%;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+}
+.sec6{
+    width: 65%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    bottom: 2px;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+.sec7{
+    width: 90%;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+}
+.sec8{
+    width: 50%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    bottom: 2px;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+h2{
+    position: relative;
+    top: 35px;
+}
+.eng{
+    position: absolute;
+    top: 70px;
+}
+.sec9{
+    width: 90%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 30px;
+    position: relative;
+    top: 65px;
+}
+.sec10{
+    width: 80%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite; 
+}
+.span{
+    position: absolute;
+    top: 30px;
+}
+.sec11{
+    width: 90%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 30px;
+    position: relative;
+    top: 65px;
+}
+.sec12{
+    width: 60%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite; 
+}
+.ger{
+    position: absolute;
+    top: 30px;
+}
+.sec13{
+    width: 90%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 30px;
+    position: relative;
+    top: 65px;
+}
+.sec14{
+    width: 40%;
+    height: 19px;
+    background-color:brown;
+    position: absolute;
+    border-radius: 30px;
+    text-align: center;
+    color: antiquewhite; 
+}
+@media only screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .container .left{
+        width: 100%;
+    }
+
+    .container .right {
+        width: 100%;
+    }
+}
